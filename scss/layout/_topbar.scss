@@ -1,0 +1,33 @@
+.topbar-box{
+    width: 100%;
+    background-color: $red-pink;
+    height: 70px;
+    border-bottom: 1px solid white;
+
+    h1{
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      margin: 0;
+      padding: 10px 0 0 20px;
+      font-size: 20px;
+      width: 10%;
+    }
+
+    ul{
+      float: right;
+      width: 80%;
+      height: 70px;
+    }
+
+    li{
+      float: left;
+      padding: 0px 0 0 20px;
+      list-style-type: none;
+    }
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+}

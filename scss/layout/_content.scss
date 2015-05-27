@@ -1,0 +1,7 @@
+.content-box{
+  margin: 20px auto 0 auto;
+  // width: 90%;
+  // height: 400px;
+  @include column (1/3);
+
+}
