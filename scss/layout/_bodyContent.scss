@@ -5,11 +5,18 @@
   height: 60px;
 }
 
+#spacer-down{
+  background-image: url('../img/border_down.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 60px;
+}
+
 .body{
   width: 100%;
   height: auto;
   background-color: white;
-  z-index: 999;
+  z-index: 10;
 
   h2{
     font-family: 'Open Sans', sans-serif;

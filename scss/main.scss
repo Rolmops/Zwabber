@@ -2,6 +2,7 @@
 
 // Vendors
 @import "vendors/jeet/index";
+@import "vendors/animate";
 
 // Components
 @import "components/colors";
@@ -12,7 +13,8 @@
 @import "layout/content";
 @import "layout/bodyContent";
 @import "layout/grid";
-
+@import "layout/appbox";
+@import "layout/footer";
 
 body{
   margin: 0;
@@ -20,8 +22,10 @@ body{
   background-image: url('../img/bg.png');
   height: 800px;
   width: 100%;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 p{

@@ -1,0 +1,33 @@
+.app-box{
+    background-image: url('../img/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+
+    p{
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      margin: 70px 0 0 0;
+      text-align: center;
+    }
+
+    img{
+      width: 12%;
+      display: block;
+      margin: 25px auto 0 auto;
+    }
+
+    .underline{
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: lighter;
+      font-size: 12px;
+      line-height: 2;
+      margin: 0;
+      text-align: center;
+    }
+
+}
