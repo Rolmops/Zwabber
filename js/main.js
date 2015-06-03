@@ -8,8 +8,6 @@ $(document).ready(function(){
 			if($(this).scrollTop() > t)
 			{
 				$('.topbar-box').addClass("scrolled");
-				$('.topbar-box a').addClass("item");
-
 			}
 		});
 
@@ -20,7 +18,6 @@ $(document).ready(function(){
 			if($(this).scrollTop() < t)
 			{
 				$('.topbar-box').removeClass("scrolled");
-				$('.topbar-box a').removeClass("item");
 
 			}
 		});
