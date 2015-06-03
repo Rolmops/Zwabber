@@ -3,6 +3,7 @@
 // Vendors
 @import "vendors/jeet/index";
 @import "vendors/animate";
+@import "vendors/hover";
 
 // Components
 @import "components/colors";
@@ -15,6 +16,8 @@
 @import "layout/grid";
 @import "layout/appbox";
 @import "layout/footer";
+
+@import "base/mediaqueries";
 
 body{
   margin: 0;
