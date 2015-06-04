@@ -6661,8 +6661,7 @@ Copyright (c) 2015 Daniel Eden
 .body {
   width: 100%;
   height: auto;
-  background-color: white;
-  z-index: 10; }
+  background-color: white; }
   .body h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -6752,6 +6751,45 @@ Copyright (c) 2015 Daniel Eden
     font-size: 16px;
     text-align: left;
     padding: 0 0 0 30px; }
+  .grid .person-box {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 31.33333%;
+    margin-left: 0%;
+    margin-right: 3%;
+    padding: 0px 0 0 0; }
+    .grid .person-box:before, .grid .person-box:after {
+      content: '';
+      display: table; }
+    .grid .person-box:after {
+      clear: both; }
+    .grid .person-box:last-child {
+      margin-right: 0%; }
+    .grid .person-box p {
+      text-align: center; }
+  .grid .circular {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../img/otter.jpg) no-repeat;
+    *zoom: 1;
+    width: auto;
+    max-width: 49%;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0; }
+    .grid .circular:before, .grid .circular:after {
+      content: '';
+      display: table; }
+    .grid .circular:after {
+      clear: both; }
 
 .app-box {
   background-image: url("../img/bg.png");
