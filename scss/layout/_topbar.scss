@@ -34,9 +34,22 @@
       text-decoration: none;
       color: white;
       font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
+      font-weight: 400;
       font-size: 18px;
+      line-height: 20px;
+
     }
+
+    .hvr-icon-wobble-vertical:before {
+        content: "\f129";
+    }
+
+    .icon-help{
+        .hvr-icon-wobble-vertical:before {
+          content: "\f128";
+        }
+    }
+
 }
 
 .scrolled {
