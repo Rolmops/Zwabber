@@ -1,3 +1,26 @@
+/* Smartphones (portrait and landscape) ----------- */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .content-box {
+    height: 470px !important;
+    max-width: 80% !important;
+    margin-left: 20%; }
+
+  #spacer {
+    margin-top: -20px !important; }
+
+  aside {
+    padding: 0% !important;
+    width: 43% !important;
+    background-size: 100% !important;
+    margin: 79px 0 0 7% !important;
+    height: 450px; } }
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 /*  Syntax Quick Reference
   --------------------------
   column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
@@ -6631,6 +6654,8 @@ Copyright (c) 2015 Daniel Eden
       margin-right: 0%; }
   .content-box img {
     margin: 150px 0 0 0; }
+  .content-box img {
+    max-width: 100%; }
   .content-box h2 {
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -6856,7 +6881,6 @@ Copyright (c) 2015 Daniel Eden
     line-height: 2;
     text-align: center; }
 
-/* Smartphones (portrait and landscape) ----------- */
 body {
   margin: 0;
   padding: 0;

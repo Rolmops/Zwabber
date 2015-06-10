@@ -1,1 +1,47 @@
 /* Smartphones (portrait and landscape) ----------- */
+
+ /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+ /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+  
+  .content-box {
+  height: 470px !important;
+    max-width: 80% !important;
+      margin-left: 20%;
+}
+
+#spacer{
+	margin-top:-20px !important;
+
+}
+   aside{
+  padding: 0% !important;
+  width: 43% !important;
+  background-size: 100% !important;
+  margin: 79px 0 0 7% !important;
+  height: 450px;
+}
+ 
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
