@@ -1,6 +1,7 @@
 .content-box{
   height: 550px;
   @include center(60%);
+  position: relative;
 
   div{
     @include column(2/5);
@@ -36,6 +37,16 @@
     line-height: 2;
   }
 
+}
 
-
+#topper:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    content: ' ';
+    background: #000;
+    opacity: 0.4;
 }
