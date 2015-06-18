@@ -1,0 +1,21 @@
+.faq-box{
+  @include center(50%);
+  height: 700px;
+
+  h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+  }
+
+
+}
