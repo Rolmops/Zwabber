@@ -99,6 +99,15 @@
 
       }
 
+      //About
+      .about-box{
+        height: 200px;
+        margin: 80px 0 150px 0;
+        @include center(85%);
+
+      }
+
+      //About
 
     }
 
@@ -149,6 +158,10 @@
 
       #spacer{
         height: 20px;
+      }
+
+      .app-box{
+          height: 350px;
       }
 
       .body{
