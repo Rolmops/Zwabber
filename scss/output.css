@@ -8337,7 +8337,7 @@ Copyright (c) 2015 Daniel Eden
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   position: fixed;
   z-index: 90;
-  background-color: transparent;
+  background: rgba(237, 78, 95, 0.6);
   transition: all 0.35s ease;
   top: 0; }
   .topbar-box h1 {
@@ -8667,6 +8667,11 @@ Copyright (c) 2015 Daniel Eden
     font-size: 11px;
     line-height: 2;
     text-align: center; }
+  .footer-box a {
+    color: white;
+    text-decoration: none; }
+    .footer-box a:hover {
+      opacity: 0.5; }
 
 .about-box {
   height: 200px;
@@ -8794,7 +8799,13 @@ Copyright (c) 2015 Daniel Eden
     font-weight: 200;
     font-size: 14px;
     color: black;
-    text-align: left; }
+    text-align: center; }
+  .faq-box a {
+    text-decoration: none;
+    color: #f15a6a;
+    font-weight: 600; }
+    .faq-box a:hover {
+      opacity: 0.5; }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1000px) {
