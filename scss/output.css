@@ -8808,6 +8808,15 @@ Copyright (c) 2015 Daniel Eden
       opacity: 0.5; }
 
 /* Medium Devices, Desktops */
+@media only screen and (min-width: 1920px) {
+  .grid {
+    max-width: 48%; }
+
+  .app-box {
+    height: 480px; }
+
+  aside {
+    margin-top: 10px; } }
 @media only screen and (max-width: 1000px) {
   .topbar-box h1 {
     padding: 25px 0 0 150px;
@@ -8947,10 +8956,10 @@ Copyright (c) 2015 Daniel Eden
       height: 300px; }
     .content-box aside {
       padding: 0%;
-      width: 42%;
+      width: 40%;
       background-size: 100%;
-      margin: 25px 0 0 0;
-      height: 300px; }
+      margin: 22px 0 0 0;
+      height: 298px; }
     .content-box img {
       width: 25%; }
     .content-box h2 {
@@ -8963,7 +8972,7 @@ Copyright (c) 2015 Daniel Eden
     height: 20px; }
 
   .app-box {
-    height: 350px; }
+    height: 286px; }
 
   .body {
     width: 100%;
@@ -9142,10 +9151,10 @@ Copyright (c) 2015 Daniel Eden
       height: 405px; }
     .content-box aside {
       padding: 0%;
-      width: 40%;
+      width: 42%;
       background-size: 100%;
-      margin: 15px 0 0 0;
-      height: 405px; }
+      margin: 25px 0 0 0;
+      height: 450px; }
     .content-box img {
       width: 25%; }
     .content-box h2 {
