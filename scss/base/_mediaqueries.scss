@@ -11,6 +11,12 @@
 }
     }
 
+
+
+
+
+   
+
  @media only screen and (max-width : 500px) {
 
       body {
@@ -45,7 +51,7 @@
   padding: 0%;
   width: 130px;
   background-size: 100%;
-  margin: 53px 0 0 10%;
+  margin: 62px 0 0 10%;
   height: 150px;
 }
 
@@ -147,14 +153,6 @@ margin-top:0;
 
       }
 
-      .footer-box img {
-  width: 40%;
-  padding: 20px 0 0 0;
-}
-
-.footer-box{
-  height: 115px;
-}
 
 //about
 .about-box{
@@ -189,151 +187,60 @@ margin-top:0;
 .faqcontent-box {
   height: 374px;
   max-width: 85%;
-}
-.faqcontent-box img {
+ img {
   margin: 15px 0 0 0;
   float: none;
 }
-
-.faqcontent-box h2 {
+ h2 {
   margin: 11px 0 0 0;
 
 }
-
-.faqcontent-box div{
+ div{
   margin-top: 0;
 }
-}  
+
+}
+
+//footer
+.footer-box {
+  height: 170px;
+  div{
+    padding:0;
+  }
+
+  img {
+  width: 34%;
+  display: block;
+  margin: 0 auto;
+  padding: 3px 0 0px 0;
+}
+
+ ul {
+  margin: 10px auto 0 auto;
+  width: 100%;
+  height: 41px;
+  padding: 0 4%;
+}
+
+ ul li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  opacity: 0.8;
+  line-height: 4;
+  margin: 0;
+}
+
+}
+
+
 
 
 
   
 
 
-    @media only screen and (max-width : 1000px) {
-      .topbar-box{
-        h1{
-          padding: 25px 0 0 150px;
-          width: 0%;
-        }
-      }
-
-      .content-box{
-        height: 420px;
-        max-width: 80%;
-        margin-left: 15%;
-
-        div{
-          height: 420px;
-        }
-
-        aside{
-          padding: 0%;
-          width: 43%;
-          background-size: 100%;
-          margin: 45px 0 0 0;
-          height: 450px;
-        }
-
-      }
-
-      #spacer{
-        height: 40px;
-      }
-
-      .body{
-        width: 100%;
-        height: auto;
-        padding: 20px 0 0 0;
-        background-color: white;
-        // z-index: 10;
-
-        h2{
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 600;
-          font-size: 35px;
-          text-align: center;
-          margin: 0px 0 0 0;
-          padding: 50px 0 0 0;
-          text-transform: uppercase;
-
-        }
-
-        p{
-          color: $red-pink;
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 100;
-          font-size: 20px;
-          line-height: 1.5;
-          text-align: center;
-        }
-
-      }
-
-      .grid{
-        height: 500px;
-        margin: 80px 0 0 0;
-        @include center(65%);
-
-        aside{
-          @include column(2/5);
-          height: 350px;
-
-          img{
-            width: 100%;
-          }
-
-        }
-
-        div{
-          @include column(2/5);
-          height: 350px;
-        }
-
-        h3{
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 600;
-          font-size: 22px;
-          margin: 0px 0 0 0;
-          padding: 80px 0 0 30px;
-          text-transform: uppercase;
-          width: 55%;
-        }
-
-        p{
-          color: $light-grey;
-          font-size: 16px;
-          text-align: left;
-          padding: 0 0 0 30px;
-        }
-
-
-      }
-
-      //About
-      .about-box{
-        height: 200px;
-        margin: 80px 0 150px 0;
-        @include center(85%);
-
-      }
-
-      //faq
-.faq-box {
-  height: auto;
-}
-.faqcontent-box{
-max-width: 82%;
-}
-
-
-
-    }
-
-
-
-
-   
+  
 
 
 
@@ -460,15 +367,7 @@ margin-top:0;
 
       }
 
-            .footer-box img {
-  width: 40%;
-  padding: 20px 0 0 0;
-}
 
-.footer-box{
-  height: 140px;
-  
-}
 
 //about
 .about-box{
@@ -505,12 +404,205 @@ margin-top:0;
   margin-top: 0;
 }
 
+//footer
 
+ .footer-box img {
+  width: 27%;
+  padding: 2px 0 0 0;
+}
+
+.footer-box{
+    height: 225px;
+}
+.footer-box ul {
+  width: 70%;
+}
+
+.footer-box li{
+    margin: 0 3%;
+}
 
   }  
+}
+
+ @media only screen and (min-width : 500px) and (max-width : 750px) {
+      .topbar-box{
+        h1{
+          padding: 25px 0 0 46px;
+          width: 0%;
+        }
+
+        a{
+          font-size: 16px;
+        }
+
+      }
+
+      .topbar-box ul {
+        width: 53%;
+      }
+
+
+      .content-box{
+          height: 265px;
+  max-width: 80%;
+  margin-left: 15%;
+
+        div{
+          height: 235px;
+        }
+
+       
+
+        img{
+          width: 30%;
+            margin: 80px 0 0 0;
+        }
+
+        h2{
+          font-size: 30px;
+        }
+
+        span{
+          font-size: 14px;
+          line-height: 0;
+        }
+
+      }
+
+      .body h2 {
+        padding-top:10px;
+      }
+.content-box aside {
+  padding: 0%;
+  width: 235px;
+  background-size: 100%;
+  margin: 10px 0 0 2px;
+  height: 277px;
+}
+      #spacer{
+  height: 33px;
+  background-size: 200%;
+}
+.app-box img {
+  width: 30%;
+  margin-top: 15px;
+}
+      .app-box{
+          height: 275px;
+      }
+.app-box p {
+margin-top:0;
+}
+      .body{
+        width: 100%;
+        height: auto;
+        padding: 20px 0 0 0;
+        background-color: white;
+        // z-index: 10;
+
+        h2{
+          font-size: 25px;
+        }
+
+        p{
+          font-size: 16px;
+          line-height: 1.2;
+        }
+
+      }
+
+      .grid{
+        height: 400px;
+        margin: 40px 0 0 0;
+        @include center(85%);
+
+        aside{
+          @include column(2/5);
+          height: 250px;
+
+          img{
+            width: 100%;
+          }
+
+        }
+
+        div{
+          @include column(3/5);
+          height: 250px;
+        }
+
+        h3{
+          font-size: 18px;
+            padding: 10px 0 0 30px;
+        }
+
+        p{
+          color: $light-grey;
+          font-size: 16px;
+          text-align: left;
+          padding: 0 0 0 25px;
+        }
+
+
+      }
+
+            .footer-box img {
+  width: 20%;
+  padding: 10px 0 0 0;
+}
 
 
 
+//about
+.about-box{
+  max-width: 90%;
+}
+.about-box .circular {
+  width: 130px;
+  height: 130px;
+}
+
+.about-box p{
+  padding:0;
+}
+//faq
+.faq-box {
+  max-width: 95%;
+}
+
+.faqcontent-box {
+  height: 262px;
+  max-width: 85%;
+}
+.faqcontent-box img {
+  margin: 15px 0 0 0;
+  float: none;
+}
+
+.faqcontent-box h2 {
+  margin: 11px 0 0 0;
+
+}
+
+.faqcontent-box div{
+  margin-top: 0;
+}
+
+.footer-box{
+  height: 180px;
+  
+}
+
+.footer-box ul {
+  margin: 10px auto 0 auto;
+  width: 83%;
+  height: 50px;
+  padding: 0;
+}
+
+  }  
+    
   
 
     @media only screen and (min-width : 750px) and (max-width : 995px) {
@@ -634,6 +726,130 @@ margin-top:0;
     max-width: 70%;
   }
   }  
+
+//     @media only screen and (max-width : 1000px) {
+//       .topbar-box{
+//         h1{
+//           padding: 25px 0 0 150px;
+//           width: 0%;
+//         }
+//       }
+
+//       .content-box{
+//         height: 420px;
+//         max-width: 80%;
+//         margin-left: 15%;
+
+//         div{
+//           height: 420px;
+//         }
+
+//         aside{
+//           padding: 0%;
+//           width: 43%;
+//           background-size: 100%;
+//           margin: 45px 0 0 0;
+//           height: 450px;
+//         }
+
+//       }
+
+//       #spacer{
+//         height: 40px;
+//       }
+
+//       .body{
+//         width: 100%;
+//         height: auto;
+//         padding: 20px 0 0 0;
+//         background-color: white;
+//         // z-index: 10;
+
+//         h2{
+//           font-family: 'Open Sans', sans-serif;
+//           font-weight: 600;
+//           font-size: 35px;
+//           text-align: center;
+//           margin: 0px 0 0 0;
+//           padding: 50px 0 0 0;
+//           text-transform: uppercase;
+
+//         }
+
+//         p{
+//           color: $red-pink;
+//           font-family: 'Open Sans', sans-serif;
+//           font-weight: 100;
+//           font-size: 20px;
+//           line-height: 1.5;
+//           text-align: center;
+//         }
+
+//       }
+
+//       .grid{
+//         height: 500px;
+//         margin: 80px 0 0 0;
+//         @include center(65%);
+
+//         aside{
+//           @include column(2/5);
+//           height: 350px;
+
+//           img{
+//             width: 100%;
+//           }
+
+//         }
+
+//         div{
+//           @include column(2/5);
+//           height: 350px;
+//         }
+
+//         h3{
+//           font-family: 'Open Sans', sans-serif;
+//           font-weight: 600;
+//           font-size: 22px;
+//           margin: 0px 0 0 0;
+//           padding: 80px 0 0 30px;
+//           text-transform: uppercase;
+//           width: 55%;
+//         }
+
+//         p{
+//           color: $light-grey;
+//           font-size: 16px;
+//           text-align: left;
+//           padding: 0 0 0 30px;
+//         }
+
+
+//       }
+
+//       //About
+//       .about-box{
+//         height: 200px;
+//         margin: 80px 0 150px 0;
+//         @include center(85%);
+
+//       }
+
+//       //faq
+// .faq-box {
+//   height: auto;
+// }
+// .faqcontent-box{
+// max-width: 82%;
+// }
+
+
+// .footer-box ul {
+//   width: 45%;
+// }
+
+//     }
+
 
 
 
@@ -822,6 +1038,33 @@ padding-right:160px;
         height: 50px;
       }
 
+.footer-box{
+    height: 230px;
+}
+.footer-box ul {
+  margin: 10px auto 0 auto;
+   width: 40%;
+  height: 50px;
+}
+      
+ .footer-box li {
+
+  margin: 0 3%;
+}
+
     }
 
+ @media only screen and (min-width : 1900px) {
+.grid {
+  height: 570px;
+}
+.app-box p {
+    margin: 50px 0 20px 0;
+}
 
+
+#spacer-down{
+  height: 88px;
+}
+
+ }

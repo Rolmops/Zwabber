@@ -8531,7 +8531,7 @@ Copyright (c) 2015 Daniel Eden
   background-image: url("../img/border_down.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 60px; }
+  height: 70px; }
 
 .body {
   width: 100%;
@@ -8554,7 +8554,7 @@ Copyright (c) 2015 Daniel Eden
     text-align: center; }
 
 .grid {
-  height: 500px;
+  height: 550px;
   margin: 80px 0 0 0;
   *zoom: 1;
   width: auto;
@@ -8716,25 +8716,59 @@ Copyright (c) 2015 Daniel Eden
 
 .footer-box {
   width: 100%;
-  height: 150px;
+  height: 230px;
   background-color: #222121; }
+  .footer-box p {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: white; }
+  .footer-box a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; }
+  .footer-box div {
+    width: 100%;
+    height: 50px;
+    padding: 20px 0 0 0;
+    margin: 0 auto; }
+    .footer-box div p {
+      padding: 0 0 10px 0;
+      margin: 0 auto;
+      font-size: 12px; }
+  .footer-box ul {
+    margin: 10px auto 0 auto;
+    width: 30%;
+    height: 50px;
+    padding: 0; }
+    .footer-box ul a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif; }
+    .footer-box ul li {
+      list-style-type: none;
+      float: left;
+      text-align: center;
+      opacity: 0.8;
+      line-height: 3;
+      margin: 0 6%; }
+  .footer-box .fb .hvr-icon-wobble-vertical:before {
+    content: "\f09a";
+    color: white; }
+  .footer-box .tw .hvr-icon-wobble-vertical:before {
+    content: "\f099";
+    color: white; }
+  .footer-box .in .hvr-icon-wobble-vertical:before {
+    content: "\f16d";
+    color: white; }
   .footer-box img {
-    width: 10%;
+    width: 9%;
     display: block;
     margin: 0 auto;
-    padding: 50px 0 0 0; }
-  .footer-box p {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    font-size: 11px;
-    line-height: 2;
-    text-align: center; }
-  .footer-box a {
-    color: white;
-    text-decoration: none; }
-    .footer-box a:hover {
-      opacity: 0.5; }
+    padding: 30px 0 0px 0; }
 
 .about-box {
   height: 200px;
@@ -8956,7 +8990,7 @@ Copyright (c) 2015 Daniel Eden
       padding: 0%;
       width: 130px;
       background-size: 100%;
-      margin: 53px 0 0 10%;
+      margin: 62px 0 0 10%;
       height: 150px; }
     .content-box img {
       width: 60%;
@@ -9063,13 +9097,6 @@ Copyright (c) 2015 Daniel Eden
       float: none;
       padding: 0 0 0 0px; }
 
-  .footer-box img {
-    width: 40%;
-    padding: 20px 0 0 0; }
-
-  .footer-box {
-    height: 115px; }
-
   .about-box {
     max-width: 95%;
     margin: 0px auto;
@@ -9097,147 +9124,36 @@ Copyright (c) 2015 Daniel Eden
   .faqcontent-box {
     height: 374px;
     max-width: 85%; }
+    .faqcontent-box img {
+      margin: 15px 0 0 0;
+      float: none; }
+    .faqcontent-box h2 {
+      margin: 11px 0 0 0; }
+    .faqcontent-box div {
+      margin-top: 0; }
 
-  .faqcontent-box img {
-    margin: 15px 0 0 0;
-    float: none; }
-
-  .faqcontent-box h2 {
-    margin: 11px 0 0 0; }
-
-  .faqcontent-box div {
-    margin-top: 0; } }
-@media only screen and (max-width: 1000px) {
-  .topbar-box h1 {
-    padding: 25px 0 0 150px;
-    width: 0%; }
-
-  .content-box {
-    height: 420px;
-    max-width: 80%;
-    margin-left: 15%; }
-    .content-box div {
-      height: 420px; }
-    .content-box aside {
-      padding: 0%;
-      width: 43%;
-      background-size: 100%;
-      margin: 45px 0 0 0;
-      height: 450px; }
-
-  #spacer {
-    height: 40px; }
-
-  .body {
-    width: 100%;
-    height: auto;
-    padding: 20px 0 0 0;
-    background-color: white; }
-    .body h2 {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 600;
-      font-size: 35px;
+  .footer-box {
+    height: 170px; }
+    .footer-box div {
+      padding: 0; }
+    .footer-box img {
+      width: 34%;
+      display: block;
+      margin: 0 auto;
+      padding: 3px 0 0px 0; }
+    .footer-box ul {
+      margin: 10px auto 0 auto;
+      width: 100%;
+      height: 41px;
+      padding: 0 4%; }
+    .footer-box ul li {
+      list-style-type: none;
+      float: left;
       text-align: center;
-      margin: 0px 0 0 0;
-      padding: 50px 0 0 0;
-      text-transform: uppercase; }
-    .body p {
-      color: #f15a6a;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 100;
-      font-size: 20px;
-      line-height: 1.5;
-      text-align: center; }
-
-  .grid {
-    height: 500px;
-    margin: 80px 0 0 0;
-    *zoom: 1;
-    width: auto;
-    max-width: 65%;
-    float: none;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0;
-    padding-right: 0; }
-    .grid:before, .grid:after {
-      content: '';
-      display: table; }
-    .grid:after {
-      clear: both; }
-    .grid aside {
-      *zoom: 1;
-      float: left;
-      clear: none;
-      text-align: inherit;
-      width: 38.2%;
-      margin-left: 0%;
-      margin-right: 3%;
-      height: 350px; }
-      .grid aside:before, .grid aside:after {
-        content: '';
-        display: table; }
-      .grid aside:after {
-        clear: both; }
-      .grid aside:last-child {
-        margin-right: 0%; }
-      .grid aside img {
-        width: 100%; }
-    .grid div {
-      *zoom: 1;
-      float: left;
-      clear: none;
-      text-align: inherit;
-      width: 38.2%;
-      margin-left: 0%;
-      margin-right: 3%;
-      height: 350px; }
-      .grid div:before, .grid div:after {
-        content: '';
-        display: table; }
-      .grid div:after {
-        clear: both; }
-      .grid div:last-child {
-        margin-right: 0%; }
-    .grid h3 {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 600;
-      font-size: 22px;
-      margin: 0px 0 0 0;
-      padding: 80px 0 0 30px;
-      text-transform: uppercase;
-      width: 55%; }
-    .grid p {
-      color: #4a4747;
-      font-size: 16px;
-      text-align: left;
-      padding: 0 0 0 30px; }
-
-  .about-box {
-    height: 200px;
-    margin: 80px 0 150px 0;
-    *zoom: 1;
-    width: auto;
-    max-width: 85%;
-    float: none;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0;
-    padding-right: 0; }
-    .about-box:before, .about-box:after {
-      content: '';
-      display: table; }
-    .about-box:after {
-      clear: both; }
-
-  .faq-box {
-    height: auto; }
-
-  .faqcontent-box {
-    max-width: 82%; } }
-@media only screen and (min-width: 500px) and (max-width: 750px) {
+      opacity: 0.8;
+      line-height: 4;
+      margin: 0; } }
+@media only screen and (max-width: 500px) and (min-width: 500px) and (max-width: 750px) {
   .topbar-box h1 {
     padding: 25px 0 0 46px;
     width: 0%; }
@@ -9357,12 +9273,168 @@ Copyright (c) 2015 Daniel Eden
       text-align: left;
       padding: 0 0 0 25px; }
 
+  .about-box {
+    max-width: 90%; }
+
+  .about-box .circular {
+    width: 130px;
+    height: 130px; }
+
+  .about-box p {
+    padding: 0; }
+
+  .faq-box {
+    max-width: 95%; }
+
+  .faqcontent-box {
+    height: 262px;
+    max-width: 85%; }
+
+  .faqcontent-box img {
+    margin: 15px 0 0 0;
+    float: none; }
+
+  .faqcontent-box h2 {
+    margin: 11px 0 0 0; }
+
+  .faqcontent-box div {
+    margin-top: 0; }
+
   .footer-box img {
-    width: 40%;
-    padding: 20px 0 0 0; }
+    width: 27%;
+    padding: 2px 0 0 0; }
 
   .footer-box {
-    height: 140px; }
+    height: 225px; }
+
+  .footer-box ul {
+    width: 70%; }
+
+  .footer-box li {
+    margin: 0 3%; } }
+@media only screen and (min-width: 500px) and (max-width: 750px) {
+  .topbar-box h1 {
+    padding: 25px 0 0 46px;
+    width: 0%; }
+  .topbar-box a {
+    font-size: 16px; }
+
+  .topbar-box ul {
+    width: 53%; }
+
+  .content-box {
+    height: 265px;
+    max-width: 80%;
+    margin-left: 15%; }
+    .content-box div {
+      height: 235px; }
+    .content-box img {
+      width: 30%;
+      margin: 80px 0 0 0; }
+    .content-box h2 {
+      font-size: 30px; }
+    .content-box span {
+      font-size: 14px;
+      line-height: 0; }
+
+  .body h2 {
+    padding-top: 10px; }
+
+  .content-box aside {
+    padding: 0%;
+    width: 235px;
+    background-size: 100%;
+    margin: 10px 0 0 2px;
+    height: 277px; }
+
+  #spacer {
+    height: 33px;
+    background-size: 200%; }
+
+  .app-box img {
+    width: 30%;
+    margin-top: 15px; }
+
+  .app-box {
+    height: 275px; }
+
+  .app-box p {
+    margin-top: 0; }
+
+  .body {
+    width: 100%;
+    height: auto;
+    padding: 20px 0 0 0;
+    background-color: white; }
+    .body h2 {
+      font-size: 25px; }
+    .body p {
+      font-size: 16px;
+      line-height: 1.2; }
+
+  .grid {
+    height: 400px;
+    margin: 40px 0 0 0;
+    *zoom: 1;
+    width: auto;
+    max-width: 85%;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0; }
+    .grid:before, .grid:after {
+      content: '';
+      display: table; }
+    .grid:after {
+      clear: both; }
+    .grid aside {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 38.2%;
+      margin-left: 0%;
+      margin-right: 3%;
+      height: 250px; }
+      .grid aside:before, .grid aside:after {
+        content: '';
+        display: table; }
+      .grid aside:after {
+        clear: both; }
+      .grid aside:last-child {
+        margin-right: 0%; }
+      .grid aside img {
+        width: 100%; }
+    .grid div {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 58.8%;
+      margin-left: 0%;
+      margin-right: 3%;
+      height: 250px; }
+      .grid div:before, .grid div:after {
+        content: '';
+        display: table; }
+      .grid div:after {
+        clear: both; }
+      .grid div:last-child {
+        margin-right: 0%; }
+    .grid h3 {
+      font-size: 18px;
+      padding: 10px 0 0 30px; }
+    .grid p {
+      color: #4a4747;
+      font-size: 16px;
+      text-align: left;
+      padding: 0 0 0 25px; }
+
+  .footer-box img {
+    width: 20%;
+    padding: 10px 0 0 0; }
 
   .about-box {
     max-width: 90%; }
@@ -9389,7 +9461,16 @@ Copyright (c) 2015 Daniel Eden
     margin: 11px 0 0 0; }
 
   .faqcontent-box div {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .footer-box {
+    height: 180px; }
+
+  .footer-box ul {
+    margin: 10px auto 0 auto;
+    width: 83%;
+    height: 50px;
+    padding: 0; } }
 @media only screen and (min-width: 750px) and (max-width: 995px) {
   .topbar-box h1 {
     padding: 25px 0 0 100px;
@@ -9653,7 +9734,27 @@ Copyright (c) 2015 Daniel Eden
       line-height: 0; }
 
   #spacer {
-    height: 50px; } }
+    height: 50px; }
+
+  .footer-box {
+    height: 230px; }
+
+  .footer-box ul {
+    margin: 10px auto 0 auto;
+    width: 40%;
+    height: 50px; }
+
+  .footer-box li {
+    margin: 0 3%; } }
+@media only screen and (min-width: 1900px) {
+  .grid {
+    height: 570px; }
+
+  .app-box p {
+    margin: 50px 0 20px 0; }
+
+  #spacer-down {
+    height: 88px; } }
 body {
   margin: 0;
   padding: 0;
