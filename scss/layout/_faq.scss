@@ -1,6 +1,7 @@
 .faq-box{
   @include center(50%);
-  height: auto;
+  height: 700px;
+  padding: 20px 0 0 0;
 
   h4{
     font-family: 'Open Sans', sans-serif;
@@ -33,7 +34,7 @@
 
 
 .faqcontent-box{
-  height: 350px;
+  height: 550px;
   @include center(70%);
   position: relative;
 
@@ -76,10 +77,3 @@
   }
 
 }
-
-
-
-
-
-
-
