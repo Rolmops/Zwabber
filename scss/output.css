@@ -8376,6 +8376,69 @@ Copyright (c) 2015 Daniel Eden
 .item {
   filter: invert(100%); }
 
+.mobile {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; }
+  .mobile a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: auto;
+    background-color: #222121;
+    border-bottom: 1px solid #E94D5A;
+    list-style-type: none;
+    padding: 30px 0; }
+  .mobile .hvr-icon-wobble-vertical {
+    float: left; }
+  .mobile .hvr-icon-wobble-vertical:before {
+    content: "\f129"; }
+  .mobile .icon-help .hvr-icon-wobble-vertical:before {
+    content: "\f128"; }
+  .mobile .icon-home .hvr-icon-wobble-vertical:before {
+    content: "\f130"; }
+
+.mobile div {
+  display: none; }
+
+.mobile button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 0;
+  text-indent: 200%;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.8) url("../img/buttonMobile.png") center no-repeat;
+  border: 1px solid #FFF;
+  border-radius: 3px;
+  background-size: 80%;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease; }
+
+.mobile button.expanded {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-color: transparent;
+  border: 0; }
+
+.mobile a:hover,
+.mobile a:active,
+.mobile a:focus {
+  font-size: 20px;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease; }
+
 .content-box {
   height: 550px;
   *zoom: 1;
@@ -8783,7 +8846,7 @@ Copyright (c) 2015 Daniel Eden
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
-  height: 700px; }
+  height: auto; }
   .faq-box:before, .faq-box:after {
     content: '';
     display: table; }
@@ -8798,7 +8861,7 @@ Copyright (c) 2015 Daniel Eden
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     font-size: 14px;
-    color: black;
+    color: black !important;
     text-align: center; }
   .faq-box a {
     text-decoration: none;
@@ -8807,16 +8870,243 @@ Copyright (c) 2015 Daniel Eden
     .faq-box a:hover {
       opacity: 0.5; }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 1920px) {
-  .grid {
-    max-width: 48%; }
+.faqcontent-box {
+  height: 350px;
+  *zoom: 1;
+  width: auto;
+  max-width: 70%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative; }
+  .faqcontent-box:before, .faqcontent-box:after {
+    content: '';
+    display: table; }
+  .faqcontent-box:after {
+    clear: both; }
+  .faqcontent-box div {
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin: 93px auto; }
+  .faqcontent-box aside {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 58.8%;
+    margin-left: 0%;
+    margin-right: 3%;
+    height: 350px;
+    background-image: url("../img/intro.png");
+    background-repeat: no-repeat;
+    z-index: -5;
+    padding: 30px 0 0 0; }
+    .faqcontent-box aside:before, .faqcontent-box aside:after {
+      content: '';
+      display: table; }
+    .faqcontent-box aside:after {
+      clear: both; }
+    .faqcontent-box aside:last-child {
+      margin-right: 0%; }
+  .faqcontent-box img {
+    margin: 50px 0 0 0;
+    max-width: 100%;
+    float: left; }
+  .faqcontent-box h2 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 67px 0 0 0; }
+  .faqcontent-box span {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 2; }
+
+@media (max-width: 800px) {
+  .mobile {
+    display: block; }
+
+  .desktop {
+    display: none; } }
+@media only screen and (max-width: 500px) {
+  body {
+    background-repeat: repeat-y !important; }
+
+  .topbar-box a {
+    font-size: 16px; }
+
+  .topbar-box ul {
+    width: 63%; }
+
+  .content-box {
+    height: 200px;
+    max-width: 100%;
+    margin-left: 5%; }
+    .content-box div {
+      height: 150px; }
+    .content-box aside {
+      padding: 0%;
+      width: 130px;
+      background-size: 100%;
+      margin: 53px 0 0 10%;
+      height: 150px; }
+    .content-box img {
+      width: 60%;
+      margin: 15px 0 0 0%; }
+    .content-box h2 {
+      font-size: 25px; }
+    .content-box span {
+      font-size: 14px;
+      line-height: 0; }
+
+  .body h2 {
+    padding-top: 10px; }
+
+  #spacer {
+    height: 20px;
+    background-size: 268%; }
+
+  #spacer-down {
+    height: 35px; }
 
   .app-box {
-    height: 480px; }
+    height: 183px; }
 
-  aside {
-    margin-top: 10px; } }
+  .app-box p {
+    margin-top: 0; }
+
+  .app-box img {
+    width: 30%;
+    margin-top: 8px; }
+
+  .body {
+    width: 100%;
+    height: auto;
+    padding: 0px 0 0 0;
+    background-color: white; }
+    .body h2 {
+      font-size: 25px; }
+    .body p {
+      font-size: 16px;
+      line-height: 1.2; }
+
+  .grid {
+    height: auto;
+    margin: 40px 0 0 0;
+    max-width: 100%;
+    *zoom: 1;
+    width: auto;
+    max-width: 85%;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0; }
+    .grid:before, .grid:after {
+      content: '';
+      display: table; }
+    .grid:after {
+      clear: both; }
+    .grid aside {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 17.6%;
+      margin-left: 0%;
+      margin-right: 3%;
+      height: 50px; }
+      .grid aside:before, .grid aside:after {
+        content: '';
+        display: table; }
+      .grid aside:after {
+        clear: both; }
+      .grid aside:last-child {
+        margin-right: 0%; }
+      .grid aside img {
+        width: 100%; }
+    .grid div {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 58.8%;
+      margin-left: 0%;
+      margin-right: 3%;
+      height: auto;
+      width: 78%; }
+      .grid div:before, .grid div:after {
+        content: '';
+        display: table; }
+      .grid div:after {
+        clear: both; }
+      .grid div:last-child {
+        margin-right: 0%; }
+    .grid h3 {
+      font-size: 18px;
+      padding: 0px 0 0 0px;
+      width: 100%; }
+    .grid p {
+      color: #4a4747;
+      font-size: 16px;
+      text-align: left;
+      width: 100%;
+      float: none;
+      padding: 0 0 0 0px; }
+
+  .footer-box img {
+    width: 40%;
+    padding: 20px 0 0 0; }
+
+  .footer-box {
+    height: 115px; }
+
+  .about-box {
+    max-width: 95%;
+    margin: 0px auto;
+    padding-top: 40px;
+    height: auto; }
+
+  .about-box .circular {
+    width: 100px;
+    height: 100px; }
+
+  .about-box p {
+    padding: 0;
+    margin: 15px 0 40px 0; }
+
+  .about-box .person-box {
+    width: 100%;
+    margin: 0 auto; }
+
+  .about-box div {
+    height: auto; }
+
+  .faq-box {
+    max-width: 95%; }
+
+  .faqcontent-box {
+    height: 374px;
+    max-width: 85%; }
+
+  .faqcontent-box img {
+    margin: 15px 0 0 0;
+    float: none; }
+
+  .faqcontent-box h2 {
+    margin: 11px 0 0 0; }
+
+  .faqcontent-box div {
+    margin-top: 0; } }
 @media only screen and (max-width: 1000px) {
   .topbar-box h1 {
     padding: 25px 0 0 150px;
@@ -8940,39 +9230,61 @@ Copyright (c) 2015 Daniel Eden
       content: '';
       display: table; }
     .about-box:after {
-      clear: both; } }
-@media only screen and (min-width: 750px) and (max-width: 995px) {
+      clear: both; }
+
+  .faq-box {
+    height: auto; }
+
+  .faqcontent-box {
+    max-width: 82%; } }
+@media only screen and (min-width: 500px) and (max-width: 750px) {
   .topbar-box h1 {
-    padding: 25px 0 0 100px;
+    padding: 25px 0 0 46px;
     width: 0%; }
   .topbar-box a {
     font-size: 16px; }
 
+  .topbar-box ul {
+    width: 53%; }
+
   .content-box {
-    height: 300px;
+    height: 265px;
     max-width: 80%;
     margin-left: 15%; }
     .content-box div {
-      height: 300px; }
-    .content-box aside {
-      padding: 0%;
-      width: 40%;
-      background-size: 100%;
-      margin: 22px 0 0 0;
-      height: 298px; }
+      height: 235px; }
     .content-box img {
-      width: 25%; }
+      width: 30%;
+      margin: 80px 0 0 0; }
     .content-box h2 {
       font-size: 30px; }
     .content-box span {
       font-size: 14px;
       line-height: 0; }
 
+  .body h2 {
+    padding-top: 10px; }
+
+  .content-box aside {
+    padding: 0%;
+    width: 235px;
+    background-size: 100%;
+    margin: 10px 0 0 2px;
+    height: 176px; }
+
   #spacer {
-    height: 20px; }
+    height: 33px;
+    background-size: 200%; }
+
+  .app-box img {
+    width: 30%;
+    margin-top: 15px; }
 
   .app-box {
-    height: 286px; }
+    height: 275px; }
+
+  .app-box p {
+    margin-top: 0; }
 
   .body {
     width: 100%;
@@ -9037,12 +9349,161 @@ Copyright (c) 2015 Daniel Eden
       .grid div:last-child {
         margin-right: 0%; }
     .grid h3 {
-      font-size: 18px; }
+      font-size: 18px;
+      padding: 10px 0 0 30px; }
     .grid p {
       color: #4a4747;
       font-size: 16px;
       text-align: left;
-      padding: 0 0 0 30px; } }
+      padding: 0 0 0 25px; }
+
+  .footer-box img {
+    width: 40%;
+    padding: 20px 0 0 0; }
+
+  .footer-box {
+    height: 140px; }
+
+  .about-box {
+    max-width: 90%; }
+
+  .about-box .circular {
+    width: 130px;
+    height: 130px; }
+
+  .about-box p {
+    padding: 0; }
+
+  .faq-box {
+    max-width: 95%; }
+
+  .faqcontent-box {
+    height: 262px;
+    max-width: 85%; }
+
+  .faqcontent-box img {
+    margin: 15px 0 0 0;
+    float: none; }
+
+  .faqcontent-box h2 {
+    margin: 11px 0 0 0; }
+
+  .faqcontent-box div {
+    margin-top: 0; } }
+@media only screen and (min-width: 750px) and (max-width: 995px) {
+  .topbar-box h1 {
+    padding: 25px 0 0 100px;
+    width: 0%; }
+  .topbar-box a {
+    font-size: 16px; }
+
+  .content-box {
+    height: 294px;
+    max-width: 80%;
+    margin-left: 15%; }
+    .content-box div {
+      height: 300px; }
+    .content-box aside {
+      padding: 0%;
+      width: 40%;
+      background-size: 100%;
+      margin: 22px 0 0 0;
+      height: 298px; }
+    .content-box img {
+      width: 40%;
+      margin: 55px 0 0 0; }
+    .content-box h2 {
+      font-size: 30px; }
+    .content-box span {
+      font-size: 14px;
+      line-height: 0; }
+
+  #spacer {
+    height: 50px;
+    background-size: 140%; }
+
+  .app-box {
+    height: 360px; }
+
+  .body {
+    width: 100%;
+    height: auto;
+    padding: 20px 0 0 0;
+    background-color: white; }
+    .body h2 {
+      font-size: 25px; }
+    .body p {
+      font-size: 16px;
+      line-height: 1.2; }
+
+  .grid {
+    height: 400px;
+    margin: 40px 0 0 0;
+    *zoom: 1;
+    width: auto;
+    max-width: 85%;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0; }
+    .grid:before, .grid:after {
+      content: '';
+      display: table; }
+    .grid:after {
+      clear: both; }
+    .grid aside {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 38.2%;
+      margin-left: 0%;
+      margin-right: 3%;
+      height: 250px; }
+      .grid aside:before, .grid aside:after {
+        content: '';
+        display: table; }
+      .grid aside:after {
+        clear: both; }
+      .grid aside:last-child {
+        margin-right: 0%; }
+      .grid aside img {
+        width: 100%; }
+    .grid div {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 58.8%;
+      margin-left: 0%;
+      margin-right: 3%;
+      height: 250px; }
+      .grid div:before, .grid div:after {
+        content: '';
+        display: table; }
+      .grid div:after {
+        clear: both; }
+      .grid div:last-child {
+        margin-right: 0%; }
+    .grid h3 {
+      font-size: 18px;
+      padding: 33px 0 0 30px; }
+    .grid p {
+      color: #4a4747;
+      font-size: 16px;
+      text-align: left;
+      padding: 0 0 0 30px; }
+
+  .app-box p {
+    margin-top: 12px; }
+
+  .app-box img {
+    width: 23%; }
+
+  .faq-box {
+    max-width: 70%; } }
 @media only screen and (min-width: 996px) and (max-width: 1004px) {
   .topbar-box h1 {
     padding: 25px 0 0 150px;
@@ -9071,7 +9532,8 @@ Copyright (c) 2015 Daniel Eden
       line-height: 0; }
 
   #spacer {
-    height: 20px; }
+    height: 20px;
+    background-size: 105%; }
 
   .body {
     width: 100%;
@@ -9143,6 +9605,9 @@ Copyright (c) 2015 Daniel Eden
       text-align: left;
       padding: 0 0 0 30px; } }
 @media only screen and (min-width: 1005px) and (max-width: 1230px) {
+  .topbar-box h1 {
+    padding-right: 160px; }
+
   .content-box {
     height: 405px;
     max-width: 80%;
@@ -9151,10 +9616,10 @@ Copyright (c) 2015 Daniel Eden
       height: 405px; }
     .content-box aside {
       padding: 0%;
-      width: 42%;
+      width: 345px;
       background-size: 100%;
-      margin: 25px 0 0 0;
-      height: 450px; }
+      margin: 38px 0 0 0;
+      height: 420px; }
     .content-box img {
       width: 25%; }
     .content-box h2 {
@@ -9163,6 +9628,9 @@ Copyright (c) 2015 Daniel Eden
       font-size: 14px;
       line-height: 0; } }
 @media only screen and (min-width: 1231px) and (max-width: 1400px) {
+  .topbar-box h1 {
+    padding: 25px 0 0 200px; }
+
   .content-box {
     height: 420px;
     max-width: 80%;
@@ -9176,7 +9644,8 @@ Copyright (c) 2015 Daniel Eden
       margin: 20px 0 0 0;
       height: 420px; }
     .content-box img {
-      width: 25%; }
+      width: 30%;
+      margin-top: 100px; }
     .content-box h2 {
       font-size: 30px; }
     .content-box span {
@@ -9184,7 +9653,7 @@ Copyright (c) 2015 Daniel Eden
       line-height: 0; }
 
   #spacer {
-    height: 25px; } }
+    height: 50px; } }
 body {
   margin: 0;
   padding: 0;

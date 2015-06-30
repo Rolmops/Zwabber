@@ -10,7 +10,7 @@
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,700' rel='stylesheet' type='text/css'>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
   <link rel="stylesheet" href="scss/output.css">
 
   <script src="js/jquery.js"></script>
@@ -20,7 +20,7 @@
 </head>
 <body>
 
-  <nav class="topbar-box animate bounce">
+  <nav class="desktop topbar-box animate bounce">
 
 
       <ul>
@@ -28,9 +28,22 @@
         <li class="icon-help"><a class="hvr-icon-wobble-vertical" href="faq.html">Help</a></li>
       </ul>
 
-      <a href="index.html"><h1 class="hvr-grow">Swabber</h1></a>
+
+      <a href="index.html"><div class="mobileicon"><h1 class="hvr-grow">Swabber</h1> </div>  
+        
+      <!-- /header --></a>
 
   </nav>
+
+  <nav class="mobile">
+  <button>Toggle</button>
+  <div>
+ 
+<a  href="index.html">Home</a>
+  <a  href="about.html">Over ons</a>
+    <a  href="faq.html">Help</a>
+   </div>
+</nav>
 
   <section class="content-box animated bounce custom">
 
@@ -66,10 +79,9 @@ Altijd een duidelijk overzicht van jouw taken en die van anderen!
         </aside>
 
         <div>
-          <h3>Jij en je huisgenoten komen er niet meer onderuit.</h3>
+          <h3>Vergeet nooit meer je taken.</h3>
           <p>
-            Niemand is meer verantwoordelijk voor het schoonmaakrooster. Swabber verdeelt automatisch alle taken eerlijk aan alle
-            leden binnen een huishouden. Het enige dat jij hoeft te doen is taken in te voeren, de rest wordt voor je geregeld!
+            Niemand is meer verantwoordelijk voor het maken van het schoonmaakrooster. Swabber verdeelt automatisch alle taken eerlijk aan alle leden binnen een huishouden. Het enige dat jij hoeft te doen is taken in te voeren, de rest wordt voor je geregeld!
 
           </p>
         </div>
@@ -79,7 +91,7 @@ Altijd een duidelijk overzicht van jouw taken en die van anderen!
     <article class="grid">
 
         <div>
-          <h3>Zie precies wat je moet doen.</h3>
+          <h3>Zie precies wat de taken inhouden.</h3>
           <p>Je kunt in de taakomschrijving precies zien wat je moet doen en wie welke taken heeft voor de komende weken.
           Natuurlijk kun je ook taken aanpassen.
 
@@ -142,10 +154,12 @@ Altijd een duidelijk overzicht van jouw taken en die van anderen!
     </div>
     <p class="underline">Voor Android & IOS</p>
   </section>
+  <div class="clearfix"></div>
+    
+  </div>
 
-  <footer class="footer-box">
+ <footer class="footer-box">
     <img src="img/footer.png">
     <p>Built by: <a href="http://coffeeit.nl/">Coffee IT</a> in Eindhoven with Max, Lars, Elise & Tessa</p>
   </footer>
-
 </body>

@@ -1,18 +1,214 @@
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 1920px) {
-      .grid{
-        max-width: 48%;
-      }
 
-      .app-box {
-        height: 480px;
-      }
 
-       aside{
-        margin-top: 10px;
-      }
-     
+
+
+@media (max-width: 800px){
+  .mobile{
+    display: block;
+  }
+  .desktop{
+    display: none;
 }
+    }
+
+ @media only screen and (max-width : 500px) {
+
+      body {
+      background-repeat: repeat-y !important;
+
+      }
+
+      .topbar-box{
+
+
+        a{
+          font-size: 16px;
+        }
+
+      }
+
+      .topbar-box ul {
+        width: 63%;
+      }
+
+
+      .content-box{
+          height: 200px;
+        max-width: 100%;
+        margin-left: 5%;
+
+        div{
+          height: 150px;
+        }
+
+        aside {
+  padding: 0%;
+  width: 130px;
+  background-size: 100%;
+  margin: 53px 0 0 10%;
+  height: 150px;
+}
+
+        img{
+          width: 60%;
+            margin: 15px 0 0 0%;
+        }
+
+        h2{
+          font-size: 25px;
+        }
+
+        span{
+          font-size: 14px;
+          line-height: 0;
+        }
+
+      }
+
+
+      .body h2 {
+        padding-top:10px;
+      }
+
+      #spacer{
+        height: 20px;
+          background-size: 268%;
+      }
+      #spacer-down {
+        height: 35px;
+      }
+
+      .app-box{
+          height: 183px;
+      }
+.app-box p {
+margin-top:0;
+}
+
+.app-box img {
+  width: 30%;
+  margin-top: 8px;
+}
+      .body{
+        width: 100%;
+        height: auto;
+        padding: 0px 0 0 0;
+        background-color: white;
+        // z-index: 10;
+
+        h2{
+          font-size: 25px;
+        }
+
+        p{
+          font-size: 16px;
+          line-height: 1.2;
+        }
+
+      }
+
+      .grid{
+        height: auto;
+        margin:40px 0 0 0;
+        max-width: 100%;
+        @include center(85%);
+
+        aside{
+          @include column(1/5);
+          height:50px;
+
+          img{
+            width: 100%;
+          }
+
+        }
+
+        div{
+          @include column(3/5);
+          height: auto;
+          width: 78%;
+        }
+
+        h3{
+          font-size: 18px;
+            padding: 0px 0 0 0px;
+            width: 100%;
+        }
+
+        p{
+          color: $light-grey;
+          font-size: 16px;
+          text-align: left;
+          width: 100%;
+          float: none;
+          padding: 0 0 0 0px;
+        }
+
+
+      }
+
+      .footer-box img {
+  width: 40%;
+  padding: 20px 0 0 0;
+}
+
+.footer-box{
+  height: 115px;
+}
+
+//about
+.about-box{
+  max-width: 95%;  
+  margin: 0px auto;
+  padding-top:40px;
+  height: auto;
+}
+.about-box .circular {
+  width: 100px;
+  height: 100px;
+}
+
+.about-box p{
+  padding:0;
+  margin: 15px 0 40px 0;
+}
+
+.about-box .person-box {
+  width: 100%;
+  margin:0 auto;
+}
+
+.about-box div {
+  height: auto;
+}
+//faq
+.faq-box {
+  max-width: 95%;
+}
+
+.faqcontent-box {
+  height: 374px;
+  max-width: 85%;
+}
+.faqcontent-box img {
+  margin: 15px 0 0 0;
+  float: none;
+}
+
+.faqcontent-box h2 {
+  margin: 11px 0 0 0;
+
+}
+
+.faqcontent-box div{
+  margin-top: 0;
+}
+}  
+
+
+
+  
+
 
     @media only screen and (max-width : 1000px) {
       .topbar-box{
@@ -122,9 +318,197 @@
 
       }
 
-      //About
+      //faq
+.faq-box {
+  height: auto;
+}
+.faqcontent-box{
+max-width: 82%;
+}
+
+
 
     }
+
+
+
+
+   
+
+
+
+
+    @media only screen and (min-width : 500px) and (max-width : 750px) {
+      .topbar-box{
+        h1{
+          padding: 25px 0 0 46px;
+          width: 0%;
+        }
+
+        a{
+          font-size: 16px;
+        }
+
+      }
+
+      .topbar-box ul {
+        width: 53%;
+      }
+
+
+      .content-box{
+          height: 265px;
+  max-width: 80%;
+  margin-left: 15%;
+
+        div{
+          height: 235px;
+        }
+
+       
+
+        img{
+          width: 30%;
+            margin: 80px 0 0 0;
+        }
+
+        h2{
+          font-size: 30px;
+        }
+
+        span{
+          font-size: 14px;
+          line-height: 0;
+        }
+
+      }
+
+      .body h2 {
+        padding-top:10px;
+      }
+.content-box aside {
+  padding: 0%;
+  width: 235px;
+  background-size: 100%;
+  margin: 10px 0 0 2px;
+  height: 176px;
+}
+      #spacer{
+  height: 33px;
+  background-size: 200%;
+}
+.app-box img {
+  width: 30%;
+  margin-top: 15px;
+}
+      .app-box{
+          height: 275px;
+      }
+.app-box p {
+margin-top:0;
+}
+      .body{
+        width: 100%;
+        height: auto;
+        padding: 20px 0 0 0;
+        background-color: white;
+        // z-index: 10;
+
+        h2{
+          font-size: 25px;
+        }
+
+        p{
+          font-size: 16px;
+          line-height: 1.2;
+        }
+
+      }
+
+      .grid{
+        height: 400px;
+        margin: 40px 0 0 0;
+        @include center(85%);
+
+        aside{
+          @include column(2/5);
+          height: 250px;
+
+          img{
+            width: 100%;
+          }
+
+        }
+
+        div{
+          @include column(3/5);
+          height: 250px;
+        }
+
+        h3{
+          font-size: 18px;
+            padding: 10px 0 0 30px;
+        }
+
+        p{
+          color: $light-grey;
+          font-size: 16px;
+          text-align: left;
+          padding: 0 0 0 25px;
+        }
+
+
+      }
+
+            .footer-box img {
+  width: 40%;
+  padding: 20px 0 0 0;
+}
+
+.footer-box{
+  height: 140px;
+  
+}
+
+//about
+.about-box{
+  max-width: 90%;
+}
+.about-box .circular {
+  width: 130px;
+  height: 130px;
+}
+
+.about-box p{
+  padding:0;
+}
+//faq
+.faq-box {
+  max-width: 95%;
+}
+
+.faqcontent-box {
+  height: 262px;
+  max-width: 85%;
+}
+.faqcontent-box img {
+  margin: 15px 0 0 0;
+  float: none;
+}
+
+.faqcontent-box h2 {
+  margin: 11px 0 0 0;
+
+}
+
+.faqcontent-box div{
+  margin-top: 0;
+}
+
+
+
+  }  
+
 
 
   
@@ -143,7 +527,7 @@
       }
 
       .content-box{
-        height: 300px;
+        height: 294px;
         max-width: 80%;
         margin-left: 15%;
 
@@ -160,7 +544,8 @@
 }
 
         img{
-          width: 25%;
+          width: 40%;
+            margin: 55px 0 0 0;
         }
 
         h2{
@@ -175,11 +560,12 @@
       }
 
       #spacer{
-        height: 20px;
+        height: 50px;
+          background-size: 140%;
       }
 
       .app-box{
-          height: 286px;
+          height: 360px;
       }
 
       .body{
@@ -222,7 +608,8 @@
 
         h3{
           font-size: 18px;
-        }
+          padding: 33px 0 0 30px;
+}
 
         p{
           color: $light-grey;
@@ -234,6 +621,18 @@
 
       }
 
+      .app-box p {
+        margin-top: 12px;
+      }
+      .app-box img {
+  width: 23%;
+}
+
+//faq
+
+.faq-box {
+    max-width: 70%;
+  }
   }  
 
 
@@ -285,6 +684,7 @@
 
       #spacer{
         height: 20px;
+          background-size: 105%;
       }
 
       .body{
@@ -343,7 +743,10 @@
     }
 
     @media only screen and (min-width : 1005px) and (max-width : 1230px) {
+.topbar-box h1 {
+padding-right:160px;
 
+}
       .content-box{
         height: 405px;
         max-width: 80%;
@@ -353,13 +756,13 @@
           height: 405px;
         }
 
-        aside{
-          padding: 0%;
-          width: 42%;
-          background-size: 100%;
-          margin: 25px 0 0 0;
-          height: 450px;
-        }
+         aside {
+  padding: 0%;
+  width: 345px;
+  background-size: 100%;
+  margin: 38px 0 0 0;
+  height: 420px;
+}
 
         img{
           width: 25%;
@@ -379,7 +782,9 @@
     }
 
     @media only screen and (min-width : 1231px) and (max-width : 1400px) {
-
+.topbar-box h1 {
+  padding: 25px 0 0 200px;
+}
       .content-box{
         height: 420px;
         max-width: 80%;
@@ -398,7 +803,8 @@
         }
 
         img{
-          width: 25%;
+          width: 30%;
+          margin-top: 100px;
         }
 
         h2{
@@ -413,7 +819,9 @@
       }
 
       #spacer{
-        height: 25px;
+        height: 50px;
       }
 
     }
+
+

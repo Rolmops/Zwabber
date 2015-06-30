@@ -1,6 +1,6 @@
 $(document).ready(function(){
-
-
+$('button').click(function() {
+$(this).toggleClass('expanded').siblings('div').slideToggle();});
 	 //Balk komt in beeld
 		 var t = $("#spacer").offset().top - 500;
 
@@ -23,5 +23,5 @@ $(document).ready(function(){
 		});
 		
 
-
 });
+
