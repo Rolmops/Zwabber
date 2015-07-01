@@ -1,8 +1,8 @@
 .grid{
-  height: 500px;
+  height: 660px;
   margin: 80px 0 0 0;
   @include center(65%);
-
+  max-width: 1400px;
   aside{
     @include column(2/5);
     height: 350px;
